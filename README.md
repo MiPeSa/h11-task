@@ -57,34 +57,35 @@ static/ sivut vastaavat index.html tiedostoon luomallani tekstillä eli static/ 
 
 - Aktivoin uuden virtuualiympäristön(env) ``publicwsgi`` kansioon. 
     
-    $ cd
-    $ cd publicswgi
-    $ virtualenv -p python3 --system-site-packages env
+        $ cd
+        $ cd publicswgi
+        $ virtualenv -p python3 --system-site-packages env
 
 - Aktivoin virtuaaliympäristön(env)
 
-    $ source env/bin/activate
+        $ source env/bin/activate
 
 - Asensin djangon uuteen virtuaali ympäristöön:
 
-    $ 
-    $ which pip
-    /home/miikkas/publicwsgi/env/bin/pip
+        $ 
+        $ which pip
+        /home/miikkas/publicwsgi/env/bin/pip
     
 - ``requirements.txt`` kansioon paketin nimi eli ``django`` varmuuden vuoksi, ettei tule kirjoitusvirheitä.
-    $ micro requirements.txt
-    $ cat requirements.txt
-    django
-    $ pip install -r requirements.txt
+           
+        $ micro requirements.txt
+        $ cat requirements.txt
+        django
+        $ pip install -r requirements.txt
     
 - Django version tarkastus
 
-    $ django-admin --version
-    4.1.7
+        $ django-admin --version
+        4.1.7
 
 - Uusi projekti 
 
-    $ django-admin startproject mscom
+        $ django-admin startproject mscom
     
 - Sain errorin:
 
@@ -93,29 +94,29 @@ static/ sivut vastaavat index.html tiedostoon luomallani tekstillä eli static/ 
 Ratkaisin poistamalla kansion mscom 
 - Ensin pois virtuaaliympäristöstä
 
-    $ deactivate
+        $ deactivate
 
 - Poistin kansion sekä sen sisällöt eli myös static kansion ja index.html tiedoston, joka oli static kansion sisällä. Lisäämällä komentoon ``-r`` poistuu kansio sisältöineen.
 
-    $ rm -r mscom/
+        $ rm -r mscom/
    
 - Aktivoin virtuaaliympäristön uudestaan   
    
-    $ source env/bin/activate
+        $ source env/bin/activate
 
 - Loin django projektin 
 
-    $ django-admin startproject mscom
+        $ django-admin startproject mscom
 
 - Poistuin virtuaaliympäristöstä ja kävin tekemässä uudestaan ``static/`` kansion sekä kansion sisälle ``index.html`` tiedoston, johon kirjoitin simppelin "Uusi static sivu"
 
 - Takaisin virtuaaliympäristöön
 
-    $ source env/bin/activate
+        $ source env/bin/activate
     
 - Muokkaamaan mscom.conf tiedostoa
 
-    $ sudoedit /etc/apache2/sites-available/mscom.conf
+        $ sudoedit /etc/apache2/sites-available/mscom.conf
     
 ![Add file: h11 9](h11-9.PNG)
 
@@ -125,7 +126,7 @@ Tiedoston mallin kopioin suoraan Tero Karviselta, Deploy Django 4 - Production I
 
 - Asensin Apachen WSGI moduulin.
 
-    $ sudo apt-get -y install libapache2-mod-wsgi-py3
+        $ sudo apt-get -y install libapache2-mod-wsgi-py3
     
 - Tarkastin syntaksin.
     
@@ -133,12 +134,12 @@ Tiedoston mallin kopioin suoraan Tero Karviselta, Deploy Django 4 - Production I
 
 - Syntaksi näyttäisi olevan jälleen kunnossa, käynnistetään apache uudelleen.
 
-    $ sudo systemctl restart apache2
+        $ sudo systemctl restart apache2
 
 - Testataan mitä sivu vastaa, jonka jälkeen katsotaan, mitä serveriä sivu käyttää.
 
-    $ curl -s localhost|grep title
-    $ curl -sI localhost|grep Server
+        $ curl -s localhost|grep title
+        $ curl -sI localhost|grep Server
 
 Vastaukset:
 
