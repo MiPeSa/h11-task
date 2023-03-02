@@ -41,7 +41,7 @@ Seuraavaksi otan ``mscom.conf`` tiedoston käyttöön apachen palvelimelle.
 
 - Apachen palvelin näyttää ``000-default.conf`` sivua, joten poistan sen käytöstä. ``$ sudo a2dissite 000-default.conf``
 - Otan ``mscom.conf`` sivun käyttöön ``$ sudo a2ensite mscom.conf``
-- Katson toimiiko uusi konfiguraatio ``$ /sbin/apache2ctl configtest``.
+- Varmistan onko Sytaksi kunnossa ja toimiiko uusi konfiguraatio ``$ /sbin/apache2ctl configtest``.
 
 ![Add file: h11 6](h11-6.PNG)
 
