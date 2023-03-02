@@ -16,10 +16,11 @@ Aloitin k채ynnist채m채ll채 apache:n ``$ sudo systemctl start apache2``, jonka j�
 
 Serveri vastasi aikaisemmin luomallani vastauksella, eli apache toimii.
 
-Seuraavaksi tein kansiot sek채 tiedostopolun samalla django projektia varten.
+Seuraavaksi tein kansiot sek채 tiedostopolun django projektia varten.
 
 ![Add file: h11 first](h11-2.PNG)
 
+- ``$ echo "Uusi sivu testi| tee .....`` komento tekee index.html tiedoston kansioon, joka antaa vastaukseksi "Uusi sivu testi".
 T채m채n j채lkeen loin ``mscom.conf`` tiedoston apachen palvelinta varten. 
 
     $ sudoedit /etc/apache2/sites-available/mscom.conf
