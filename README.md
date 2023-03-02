@@ -20,7 +20,7 @@ Seuraavaksi tein kansiot sekä tiedostopolun django projektia varten.
 
 ![Add file: h11 first](h11-2.PNG)
 
-- ``$ echo "Uusi sivu testi| tee .....`` komento tekee index.html tiedoston kansioon, joka antaa vastaukseksi "Uusi sivu testi".
+- ``$ echo "Uusi sivu testi| tee .....`` komento tekee index.html tiedoston tiedostopolkuun, joka antaa vastaukseksi "Uusi sivu testi".
 Tämän jälkeen loin ``mscom.conf`` tiedoston apachen palvelinta varten. 
 
     $ sudoedit /etc/apache2/sites-available/mscom.conf
