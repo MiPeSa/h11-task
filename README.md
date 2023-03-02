@@ -6,6 +6,7 @@
 - 8 GB RAM
 - Windows 10, versio: 22H2
 
+Alotiin tehtävän tekemisen ~00:00
 
 ## a) Django tuotantoasennus
 
@@ -210,3 +211,5 @@ Nyt näyttää oikealta, pävitellään django projekti komennolla ``$ touch msc
 ![Add file: h11 19](h11-19.PNG)
 
 Nyt sivut näyttävät paremmalta.
+
+a) kohta valmis ~2:50 eli hieman alta 3h vierähti. 
