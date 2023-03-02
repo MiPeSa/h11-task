@@ -183,8 +183,8 @@ http://localhost/admin/ toimii edelleen, jotta pääsen hallitsemaan projektia.
 
 - Lisäsin tiedostoon:
     
-    import os
-    STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+        import os
+        STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
     
 Syötin ``$ ./manage.py collectstatic``, joka vastasi seuraavalla errorilla.
 
