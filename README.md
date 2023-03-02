@@ -6,7 +6,7 @@
 - 8 GB RAM
 - Windows 10, versio: 22H2
 
-Alotiin tehtävän tekemisen ~00:20
+Aloitin tehtävän tekemisen ~00:20
 
 ## a) Django tuotantoasennus
 
