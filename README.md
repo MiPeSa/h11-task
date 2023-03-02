@@ -55,7 +55,7 @@ static/ sivut vastaavat index.html tiedostoon luomallani tekstillä eli static/ 
 
 ### Uusi Django projekti.
 
-- Aktivoin uuden virtuualiympäristön(env) ``publicwsgi`` kansioon`. 
+- Aktivoin uuden virtuualiympäristön(env) ``publicwsgi`` kansioon. 
     
     $ cd
     $ cd publicswgi
