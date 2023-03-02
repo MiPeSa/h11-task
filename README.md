@@ -35,7 +35,7 @@ Liitin tiedostopolut ``mscom.conf`` tiedostoon``
 ![Add file: h11 3](h11-3.PNG)
 
 Seuraavaksi otan ``mscom.conf`` tiedoston käyttöön apachen palvelimelle.
-- Ensin katson mitä apachen etusivu nyt näyttää.
+- Ensin katson mikä apachen etusivu on nyt käytössä.
 
 ![Add file: h11 5](h11-5.PNG)
 
