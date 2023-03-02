@@ -165,6 +165,7 @@ Toimii! Django projekti näkyy nyt apachen pyörittämällä sivulla.
     $ touch mscom/wsgi.py
     
 - ``$ touch ....`` avulla päivitän muutokset.
+- Testataan mitä sivu nyt vastaa ``$ curl localhost``
     
 ![Add file: h11 14](h11-14.PNG)
 
