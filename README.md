@@ -45,7 +45,7 @@ Seuraavaksi otan ``mscom.conf`` tiedoston käyttöön apachen palvelimelle.
 
 ![Add file: h11 6](h11-6.PNG)
 
-- Testi vastasi ``AH00558`` ja Syntax OK eli tiedostossa pitäisi olla kaikki ok.
+- Testi vastasi ``AH00558`` ja ``Syntax OK`` eli tiedostossa pitäisi olla kaikki ok.
 - Pävitin Apachen palvelimen ``$ sudo systemctl restart apache2``
 - Testaan tuliko uusi sivu näkyviin apachen etusivulle ``$ curl localhost/static/``
 
