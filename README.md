@@ -30,7 +30,7 @@ Seuraavaksi lisään tiedostopolut ``mscom.conf`` tiedostoon. Kävin kopioimassa
 
 ![Add file: h11 4](h11-4.PNG)
 
-Liitin tiedostopolut ``mscom.conf`` tiedostoon``
+Liitin tiedostopolut ``mscom.conf`` tiedostoon
 
 ![Add file: h11 3](h11-3.PNG)
 
