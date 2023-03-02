@@ -65,7 +65,7 @@ static/ sivut vastaavat index.html tiedostoon luomallani tekstillä eli static/ 
 
         $ source env/bin/activate
 
-- Asensin djangon uuteen virtuaali ympäristöön:
+- Asensin djangon uuteen virtuaaliympäristöön:
 
         $ which pip
         /home/miikkas/publicwsgi/env/bin/pip
