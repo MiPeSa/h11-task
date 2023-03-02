@@ -164,6 +164,8 @@ Toimii! Django projekti näkyy nyt apachen pyörittämällä sivulla.
 
     $ touch mscom/wsgi.py
     
+- ``$ touch ....`` avulla päivitän muutokset.
+    
 ![Add file: h11 14](h11-14.PNG)
 
 DEBUG sivu on nyt pois päältä 
