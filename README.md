@@ -72,7 +72,7 @@ Asensin djangon uuteen virtuaaliympäristöön:
         $ which pip
         /home/miikkas/publicwsgi/env/bin/pip
     
-- ``requirements.txt`` kansioon paketin nimi eli ``django`` varmuuden vuoksi, ettei tule kirjoitusvirheitä.
+- ``requirements.txt`` kansioon paketin nimi eli ``django`` varmuuden vuoksi, ettei tule kirjoitusvirheitä. Tarkastus ``cat`` komennolla, jonka jälkeen asennus.
            
         $ micro requirements.txt
         $ cat requirements.txt
