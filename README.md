@@ -125,11 +125,11 @@ Tiedoston mallin kopioin suoraan Tero Karviselta, Deploy Django 4 - Production I
 
 - Vaihdoin tiedostopolut omiini. 
 
-- Asensin Apachen WSGI moduulin.
+- Asensin Apachen WSGI moduulin python3:lla.
 
         $ sudo apt-get -y install libapache2-mod-wsgi-py3
     
-- Tarkastin syntaksin.
+- Tarkastin syntaksin ``$ /sbin/apache2ctl configtest``.
     
 ![Add file: h11 10](h11-10.PNG)
 
