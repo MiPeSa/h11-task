@@ -10,7 +10,7 @@ Alotiin tehtävän tekemisen ~00:20
 
 ## a) Django tuotantoasennus
 
-Aloitin käynnistämällä apache:n ```$ sudo systemctl start apache2``, jonka jälkeen tarkistin, että serveri vastaa komenentokehotteesta ``$ curl localhost``.
+Aloitin käynnistämällä apache:n ``$ sudo systemctl start apache2``, jonka jälkeen tarkistin, että serveri vastaa komenentokehotteesta ``$ curl localhost``.
 
 ![Add file: h11 first](h11-1.PNG)
 
