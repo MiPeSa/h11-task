@@ -24,7 +24,7 @@ Tämän jälkeen loin ``mscom.conf`` tiedoston apachen palvelinta varten.
 
     $ sudoedit /etc/apache2/sites-available/mscom.conf
 
-Lisäsin tiedostoon tiedostopolun ``mscom.conf`` tiedostoa varten. Kävin kopioimassa tiedostopolut komentokehotteesta, jotta ne tulevat varmasti oikein. Menin kotihakemistoon ``$ cd``, josta operoin ``cd``:n ja ``tab``:n avulla oikeaan tiedostopolkuun ja lopussa ``pwd``:n avulla otin tiedostopolun ja kopioin sen.
+Seuraavaksi lisään tiedostopolut ``mscom.conf`` tiedostoon. Kävin kopioimassa tiedostopolut komentokehotteesta, jotta ne tulevat varmasti oikein. Menin kotihakemistoon ``$ cd``, josta operoin ``cd``:n ja ``tab``:n avulla oikeaan tiedostopolkuun ja lopussa ``pwd``:n avulla otin tiedostopolun ja kopioin sen.
 
 ![Add file: h11 4](h11-4.PNG)
 
