@@ -67,7 +67,6 @@ static/ sivut vastaavat index.html tiedostoon luomallani tekstillä eli static/ 
 
 - Asensin djangon uuteen virtuaali ympäristöön:
 
-        $ 
         $ which pip
         /home/miikkas/publicwsgi/env/bin/pip
     
